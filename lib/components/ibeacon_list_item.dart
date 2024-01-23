@@ -4,6 +4,7 @@ class IBeaconListItem extends StatelessWidget {
   final String identifier;
   final String distance;
   final String uuid;
+
   final String contentID;
 
   IBeaconListItem({

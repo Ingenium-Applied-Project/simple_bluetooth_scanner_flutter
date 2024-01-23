@@ -69,9 +69,9 @@ class _SettingsScreenState extends State<SettingsScreen> {
     // contentController1.text = "";
 
     identifierController2.text = "My IBeacon #2";
-    uuidController2.text = "";
-    majorController2.text = "";
-    minorController2.text = "";
+    uuidController2.text = "f7826da6-4fa2-4e98-8024-bc5b71e0893e";
+    majorController2.text = "13707";
+    minorController2.text = "40023";
     // contentController2.text = "";
 
     identifierController3.text = "My IBeacon #3";

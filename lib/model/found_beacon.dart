@@ -4,7 +4,8 @@ class FoundBeacon {
   final String major;
   final String minor;
   final String contentId;
-  final double proximity;
+  double proximity;
+  DateTime lastFoundTime;
 
   FoundBeacon({
     required this.identifier,
@@ -13,5 +14,6 @@ class FoundBeacon {
     required this.minor,
     required this.contentId,
     required this.proximity,
+    required this.lastFoundTime,
   });
 }
